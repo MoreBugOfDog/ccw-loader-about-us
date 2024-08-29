@@ -2,8 +2,8 @@ import { motion } from "framer-motion";
 
 import { QuoteIcon } from "../assets/icons/QuoteIcon";
 import skydoge from "../assets/images/Skydoge.png";
-import testimonial2 from "../assets/images/testimonial2.png";
-import testimonial3 from "../assets/images/testimonial3.png";
+import testimonial2 from "../assets/images/yk1boy.webp";
+import testimonial3 from "../assets/images/kukemc.webp";
 
 const testimonialsData = [
   {
@@ -24,7 +24,7 @@ const testimonialsData = [
     customerName: "酷可MC",
     customerTitle: "Gandi 核心用户 & Gandi 拓展开发者 & Gandi 人气创作者 & Gandi 内测用户",
     content:
-      "",
+      `共创世界启动器对我来说是个很不错的工具。它能让你更方便地沉浸式游玩各种作品，整体性能的表现也相当出色。在 Gandi IDE 的体验上也会更顺滑一些。如果你在寻找一个实用的CCW启动器，它一定是最值得考虑的选择！`,
     image: testimonial3,
   },
 ];
@@ -62,6 +62,7 @@ export const Testimonials = () => (
                     width="300px"
                     height="300px"
                     aria-label={testimonial.customerName}
+                    className="rounded-xl"
                   />
                 </div>
                 <div className="flex flex-col ml-4">

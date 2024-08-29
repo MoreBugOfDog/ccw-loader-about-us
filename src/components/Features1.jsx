@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 
-import feature1 from "../assets/images/feature1.jpg";
+import feature1 from "../assets/images/Gandi.png";
 import feature2 from "../assets/images/feature2.jpg";
 import feature3 from "../assets/images/feature3.jpg";
 import feature4 from "../assets/images/feature4.jpg";
@@ -45,41 +45,18 @@ export const Features1 = () => {
             </div>
           </div>
           <div className="w-3/4 mx-auto lg:w-1/2 flex flex-wrap lg:-mx-4 sm:pr-8 lg:pt-10 justify-center lg:pl-4 xl:px-8">
-            <div className="mb-8 lg:mb-0 w-full sm:w-1/2 px-2 lg:px-0">
-              <div className="mb-4 py-3 pl-3 pr-2 rounded">
+            <div className="">
+              <div className="">
                 <img
                   src={feature1.src}
                   alt="Feature image 1"
-                  className="rounded-xl  main-border-gray mx-auto sm:mx-unset"
+                  className="rounded-xl"
                   aria-label="Feature image 1"
+                  // 201*106
+                  style={{ height: "270px", width: "480px" }}
                 />
               </div>
-              <div className="py-3 pl-3 pr-2 rounded ">
-                <img
-                  src={feature2.src}
-                  alt="Feature image 2"
-                  className="rounded-xl  main-border-gray mx-auto sm:mx-unset"
-                  aria-label="Feature image 2"
-                />
-              </div>
-            </div>
-            <div className="w-1/2 lg:mt-20  pt-12 lg:pt-0 px-2 hidden sm:inline-block">
-              <div className="mb-4 py-3 pl-3 pr-2 rounded-lg ">
-                <img
-                  src={feature3.src}
-                  alt="Feature image 3"
-                  className="rounded-xl  main-border-gray"
-                  aria-label="Feature image 3"
-                />
-              </div>
-              <div className="py-3 pl-3 pr-2 rounded-lg ">
-                <img
-                  src={feature4.src}
-                  alt="Feature image 4"
-                  className="rounded-xl  main-border-gray"
-                  aria-label="Feature image 4"
-                />
-              </div>
+              
             </div>
           </div>
         </div>
