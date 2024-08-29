@@ -50,14 +50,15 @@ export const Hero = () => {
           transition={{ duration: 0.5, delay: 0.15 }}
         >
           <div className="flex flex-col gap-2 sm:flex-row mt-14 mb-24 sm:mb-40 justify-center">
+            <a href="https://pan.quark.cn/s/42cd62835c4d" target="_blank">
             <button
               className="contained-button w-64 sm:w-52 h-12 mr-0 sm:mr-4 lg:mr-6 mb-2 sm:mb-0"
-              // onClick={} TODO:根据环境（是否在启动器内）判断是否跳转到下载页面，此按钮同理
+              
               aria-label="Get started"
             >
               开始使用
             </button>
-            
+            </a>
           </div>
         </motion.div>
         <motion.div
